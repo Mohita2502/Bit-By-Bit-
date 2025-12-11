@@ -1,0 +1,30 @@
+Backend Tech Stack ⚙️
+This backend is built using the Django framework on Python. It's designed to be a robust, scalable, and intelligent service that provides a powerful API, secure authentication, and advanced AI capabilities.
+
+Core Framework
+Python: A versatile and powerful programming language that is the foundation of our backend.
+
+Django: A high-level Python web framework that encourages rapid development and clean, pragmatic design. 
+
+Database
+MongoDB: A NoSQL, document-oriented database used as our primary data store. It offers flexibility and scalability, which is ideal for handling complex and unstructured data.
+
+If we need for ease but not a confirmed component yet, PyMongo: The underlying Python driver that Djongo uses to communicate with the MongoDB database.
+
+API & Routing
+Django REST Framework (DRF): A powerful and flexible toolkit for building Web APIs. RESTful APIs.
+
+Authentication & Authorization 🔐
+It is easy to use JWT (JSON Web Token): A JSON Web Token based authentication plugin for the Django REST Framework. It provides a secure, stateless method for authenticating users and protecting API routes using access and refresh tokens.
+
+Artificial Intelligence & Machine Learning 🧠
+This stack includes libraries for integrating AI-powered features directly into the application. Long-running AI tasks are handled asynchronously to ensure the API remains fast and responsive.
+
+ML/AI Libraries:
+
+TensorFlow / PyTorch: For building and serving deep learning models, including neural networks for computer vision or natural language processing.
+
+Deployment & Environment
+Nginx: A high-performance web server used as a reverse proxy in front of Gunicorn to handle incoming traffic, serve static files, and manage security.
+
+Temporarily using .sqlite3 for user logins
