@@ -1,0 +1,27 @@
+Frontend Tech Stack 🚀
+This project is built for Android/IOS using React Native. Below is a summary of the core technologies and libraries used to bring this application to life.
+
+Core Framework
+React Native with Expo: A JavaScript framework for writing real, natively rendering mobile applications for iOS and Android. It's based on React, Facebook's JavaScript library for building user interfaces, but instead of targeting the browser, it targets mobile platforms.
+
+React: A JavaScript library for building user interfaces. React Native uses React to describe the UI components.
+
+Language
+TypeScript/Javascript: A strongly typed programming language that builds on JavaScript, giving better tooling at any scale. It helps catch errors early and improves the developer experience with autocompletion and type inference.
+
+React Context API + Hooks: Used for managing simpler state that needs to be shared between components without resorting to a full state management library. Ideal for themes, user authentication status, etc.
+
+Navigation
+React Navigation: The community-standard routing and navigation solution for React Native apps. It provides a comprehensive set of navigators like Stack, Tab, and Drawer navigators.
+
+UI & Styling
+React Native StyleSheet: The built-in method for styling components, providing an abstraction layer similar to CSS but optimized for native performance.
+
+Tooling & Environment
+ESLint: A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript and TypeScript code, ensuring code quality and consistency.
+
+Prettier: An opinionated code formatter that enforces a consistent style by parsing your code and re-printing it with its own rules.
+
+Metro Bundler/Babel: The default JavaScript bundler for React Native, optimized for fast startup and quick bundling.
+
+VSCode/Android studio
